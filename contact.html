@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpg" type="image/png">
+</head>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<body>
+    <div class="navigation_container">
+        <a href="index.html">
+            <button class="nav">
+                Home
+            </button>
+        </a>
+        <a href="about.html">
+            <button class="nav">
+                About Us
+            </button>
+        </a>
+        <a href="packages.html">
+            <button class="nav">
+                Packages
+            </button>
+        </a>
+        <a href="contact.html">
+            <button class="nav">
+                Contact Us
+            </button>
+        </a>
+        <a href="destination.html">
+            <button class="nav">
+                Destinations
+            </button>
+        </a>
+        </div>
+    <div class="container">
+            <form>
+                <table id="table">
+                    <tr>
+                        <td>Full Name:</td>
+                        <td>
+                            <input type="text" placeholder="Enter Your Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="email" placeholder="Enter Your Email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Message:</td>
+                        <td>
+                            <textarea name="Message" rows="5" cols="30" placeholder="Type Your Message"
+                                required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit" class="btn" onclick="showAlert()">Send Message</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    </div>
+</body>
+<script>
+    function showAlert() {
+    alert("Your message has been recorded.");
+    }
+</script>
+
+</html>
