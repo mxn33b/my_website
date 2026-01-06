@@ -128,7 +128,7 @@ th{
 .btn:hover { 
     transform: translateY(-2px);     
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-    background-color: rgb(139, 45, 45); 
+    background-color: rgb(120, 20, 20); 
     
 }
 #textpackage{
@@ -154,4 +154,5 @@ th{
 }
 #table{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
